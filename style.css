@@ -372,3 +372,36 @@ html {
 	line-height: 33px;
 	color: #fff;
 }
+
+/*Comment block*/
+
+.comment {
+	background-color: #e5e5e5;
+	padding-top: 104px;
+	padding-bottom: 139px;
+}
+.comment-text {
+	text-align: center;
+	font-style: italic;
+	font-size: 20px;
+	font-weight: 400;
+	margin-bottom: 20px;
+}
+.comment-image {
+	text-align: center;
+}
+.comment-img {
+	border-radius: 50%;
+}
+.comment-type {
+	padding-top: 17px;
+	font-weight: 600;
+	font-size: 20px;
+	text-align: center;
+}
+.comment-name {
+	padding-top: 9px;
+	font-size: 20px;
+	font-weight: 400;
+	text-align: center;
+}
