@@ -405,3 +405,33 @@ html {
 	font-weight: 400;
 	text-align: center;
 }
+
+/*Gallery block*/
+
+.gal-title {
+	font-family: 'Tinos', serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 54px;
+	line-height: 62px;
+
+	text-align: center;
+	padding-top: 101px;
+	margin-bottom: 60px;
+}
+.gal-title span {
+	color: #d67e34;
+}
+.gal-content {
+	display: flex;
+	justify-content: center;
+}
+.gal-left {
+	margin-right: 30px;
+}
+.gal-down,
+.gal-up {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 20px;
+}
