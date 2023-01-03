@@ -4,7 +4,7 @@ body,
 html {
 	font-family: 'Open Sans', sans-serif;
 	width: 1440px;
-	height: 800px;
+	height: 7059px;
 }
 .container {
 	margin: 0px 166px;
@@ -434,4 +434,33 @@ html {
 	display: flex;
 	justify-content: space-between;
 	margin-bottom: 20px;
+}
+
+/*Cooks block*/
+
+.cook-title {
+	font-family: 'Tinos', serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 54px;
+	line-height: 62px;
+	text-align: center;
+
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+.cook-title span {
+	color: #d67e34;
+}
+.cook-content {
+	display: flex;
+	justify-content: space-around;
+	margin-bottom: 100px;
+}
+
+/*Footer*/
+
+footer img {
+	width: 100%;
+	margin-bottom: 50px;
 }
