@@ -263,6 +263,10 @@ html {
 	text-decoration: none;
 	padding: 14px 18px;
 	font-weight: 700;
+	transition: background-color 0.2s linear;
+}
+.right-btn:hover {
+	background-color: #894b17;
 }
 .offer-holder {
 	display: flex;
