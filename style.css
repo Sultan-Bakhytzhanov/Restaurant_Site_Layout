@@ -3,8 +3,6 @@
 body,
 html {
 	font-family: 'Open Sans', sans-serif;
-	width: 1440px;
-	height: 7059px;
 }
 .container {
 	margin: 0px 166px;
@@ -35,6 +33,7 @@ html {
 	padding-top: 50px;
 	display: flex;
 	align-items: center;
+	justify-content: space-around;
 }
 .header-logo {
 	margin-right: 268px;
@@ -48,9 +47,6 @@ html {
 .cart img {
 	position: absolute;
 	top: 20px;
-}
-.phone {
-	margin-right: 1em;
 }
 .phone-img {
 	margin-right: 10px;
@@ -129,6 +125,9 @@ html {
 .header-button:hover {
 	background-color: #904506;
 }
+.burger-menu {
+	display: none;
+}
 
 /*Card block*/
 
@@ -180,7 +179,6 @@ html {
 	font-family: 'Tinos', serif;
 	font-size: 54px;
 	font-weight: 400;
-	line-height: 62px;
 	margin-bottom: 21px;
 }
 .history-title span {
