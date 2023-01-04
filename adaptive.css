@@ -232,3 +232,19 @@
 		font-size: 23px;
 	}
 }
+
+@media (max-width: 450px) {
+	.header-logo {
+		margin-right: 20px;
+	}
+	.cook {
+		display: none;
+	}
+	.history-num {
+		margin-left: 50px;
+	}
+	.card {
+		width: 90%;
+		margin: 20px auto;
+	}
+}
